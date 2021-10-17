@@ -1,10 +1,10 @@
 import { Manager, Plugin, UnresolvedTrack, UnresolvedQuery } from "erela.js";
-export declare class Deezer extends Plugin {
+export declare class Joox extends Plugin {
     private _search;
     private manager;
     private readonly functions;
     private readonly options;
-    constructor(options: DeezerOptions);
+    constructor(options: JooxOptions);
     load(manager: Manager): void;
     private search;
     private getAlbumTracks;
@@ -12,7 +12,7 @@ export declare class Deezer extends Plugin {
     private getTrack;
     private static convertToUnresolved;
 }
-export interface DeezerOptions {
+export interface JooxOptions {
     /** Amount of pages to load, each page having 100 tracks. */
     playlistLimit?: number;
     /** Amount of pages to load, each page having 50 tracks. */
@@ -32,7 +32,7 @@ export interface Album {
     tracks: AlbumTracks;
 }
 export interface AlbumTracks {
-    items: DeezerTrack[];
+    items: JooxTrack[];
     next: string | null;
 }
 export interface Artist {
@@ -45,12 +45,12 @@ export interface Playlist {
 export interface PlaylistTracks {
     items: [
         {
-            track: DeezerTrack;
+            track: JooxTrack;
         }
     ];
     next: string | null;
 }
-export interface DeezerTrack {
+export interface JooxTrack {
     artists: Artist[];
     name: string;
     duration_ms: number;
