@@ -8,25 +8,25 @@
   ],
   "keywords": [
     "erela.js",
-    "deezer",
+    "joox",
     "plugin"
   ],
-  "name": "erela.js-deezer",
-  "version": "1.0.7",
-  "description": "Deezer plugin for Erela.JS",
+  "name": "erela.js-joox",
+  "version": "1.0.8-beta",
+  "description": "Joox plugin for Erela.JS",
   "main": "dist/index.js",
   "author": "wearifulcupid0",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/WearifulCupid0/erela.js-deezer",
+  "homepage": "https://github.com/Hyeongcho/erela.js-joox",
   "repository": {
-    "url": "git+https://github.com/WearifulCupid0/erela.js-deezer.git"
+    "url": "git+https://github.com/Hyeongcho/erela.js-joox.git"
   },
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/WearifulCupid0/erela.js-deezer/issues"
+    "url": "https://github.com/Hyeongcho/erela.js-joox/issues"
   },
   "devDependencies": {
     "discord.js": "^12.5.3"
