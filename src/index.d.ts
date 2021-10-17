@@ -1,2 +1,2 @@
-import { Deezer } from "./plugin";
-export = Deezer;
+import { Joox } from "./plugin";
+export = Joox;
