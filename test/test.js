@@ -1,5 +1,5 @@
 const { Manager } = require('erela.js');
-const Deezer = require('../dist');
+const Joox = require('../dist');
 
 const manager = new Manager({
     nodes: [{
@@ -9,7 +9,7 @@ const manager = new Manager({
     send(id, packet) {
         return true;
     },
-    plugins: [new Deezer()]
+    plugins: [new Joox()]
 });
 
-manager.init('725067926457155706').search('https://www.deezer.com/playlist/3110429622', null).then(console.log)
+manager.init('725067926457155706').search('https://www.joox.com/id/album/Ug+JezWdJTUMWMjdWruuCw==', null).then(console.log)
